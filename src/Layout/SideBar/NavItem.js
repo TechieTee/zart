@@ -5,7 +5,7 @@ import classes from './Sidebar.module.css'
 
 export const NavItem = ({ text, to, icon, adjustIcon, iconWidth, drawer, iconHeight }) => {
 
-
+console.log({text, to, icon})
     return (
 
         <div className={classes.menu}>

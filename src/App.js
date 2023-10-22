@@ -92,35 +92,36 @@ const routes = [
   // },
 ];
 
-
 const links = {
-  "header": {
+  header: {
     icon: "",
     text: "Switch Module",
     subText: "Payroll Management",
 
-    sublinks: [{
-      text: "System Administration",
-      to: "#"
-    }, {
-      text: "People Management",
-      to: "#"
-    }, {
-      text: "Payroll Management",
-      to: "#"
-    },
-    {
-      text: "Self Service",
-      to: "#"
-    },
-
-    ]
+    sublinks: [
+      {
+        text: "System Administration",
+        to: "#",
+      },
+      {
+        text: "People Management",
+        to: "#",
+      },
+      {
+        text: "Payroll Management",
+        to: "#",
+      },
+      {
+        text: "Self Service",
+        to: "#",
+      },
+    ],
   },
-  "primary": [
+  primary: [
     {
       text: "Dashboard",
       icon: "",
-      to: "#"
+      to: "#",
     },
     {
       text: "Payroll Activities",
@@ -128,95 +129,94 @@ const links = {
       sublinks: [
         {
           text: "Payroll run",
-          to: "#"
-
+          to: "#",
         },
         {
           text: "Payroll Reversal",
-          to: "#"
+          to: "#",
         },
         {
           text: "Payroll History",
-          to: "#"
+          to: "#",
         },
         {
           text: "Payroll Lock",
-          to: "#"
+          to: "#",
         },
         {
           text: "Enable Payslip",
-          to: "#"
+          to: "#",
         },
 
         {
           text: "Payroll log",
-          to: "#"
+          to: "#",
         },
         {
           text: "Payroll Approval",
-          to: "#"
+          to: "#",
         },
-
-      ]
-
+      ],
     },
     {
       text: "Salary Structure",
       icon: "",
-      to: "#"
-
+      to: "#",
     },
     {
       text: "Element Setup",
       icon: "",
-      subLink: [
+      sublinks: [
         {
           text: "Elements",
-          to: "/"
+          to: "/",
         },
         {
           text: "Balance",
-          to: "#"
-        }
-      ]
+          to: "#",
+        },
+      ],
     },
     {
       text: "Employees",
       icon: "",
-      to: "#"
+      to: "#",
     },
   ],
-  "secondary": [{
-    text: "Payroll Settings",
-    sublinks: [
-      {
-        text: "Payroll Option",
-        to: "#"
-      }, {
-        text: "Deduction Acccount Setup"
-        ,
-        to: "#"
-      },
-      {
-        text: "Variation Portal Period",
-        to: "#"
-      }, {
-        text: "Paygroup Setup",
-        to: "#"
-      }
-    ]
-  }, {
-    text: "My Account",
-    icon: "",
-    to: "#"
-  }
-    , {
-    text: "Logout",
-    icon: "",
-    to: "#"
-  }
-  ]
-}
+  secondary: [
+    {
+      text: "Payroll Settings",
+      sublinks: [
+        {
+          text: "Payroll Option",
+          to: "#",
+        },
+        {
+          text: "Deduction Acccount Setup",
+          to: "#",
+        },
+        {
+          text: "Variation Portal Period",
+          to: "#",
+        },
+        {
+          text: "Paygroup Setup",
+          to: "#",
+        },
+      ],
+    },
+    {
+      text: "My Account",
+      icon: "",
+      to: "#",
+    },
+    {
+      text: "Logout",
+      icon: "",
+      to: "#",
+    },
+  ],
+};
 
 export const App = () => {
   const [width, setWidth] = useState(window.innerWidth);
