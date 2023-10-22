@@ -1,0 +1,27 @@
+
+.Active{
+    display: inline-block;
+    background: #EAFBF1;
+    padding: 3px;
+    border-radius: 3px;
+    color: #27B360;
+
+}
+
+.Suspended{
+    display: inline-block;
+    background: #F0F2F6;
+    padding: 3px;
+    border-radius: 3px;
+    color: #6780A2;
+
+}
+
+.Inactive{
+    display: inline-block;
+    background: #FFF6E6;
+    padding: 3px;
+    border-radius: 3px;
+    color: #E69502;
+
+}

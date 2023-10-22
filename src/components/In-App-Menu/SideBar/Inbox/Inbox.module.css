@@ -1,0 +1,46 @@
+.inbox{
+    background:#F2F2F2;
+    height: 65%;
+    color:rgba(40,112,206,1)
+}
+
+.inboxHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 13px 13px 13px;
+    color:#7399CC;
+    background: #FFFFFF;
+    line-height:18px;
+    font-size: 12px;
+    border-bottom: 1.5px solid #E5E5E5;
+}
+
+.inboxHeaderMain{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* width */
+}
+
+
+.inboxText{
+    margin-bottom: 0;
+    padding: 0 5px;
+   
+}
+
+
+.inboxList{
+    padding-inline-start:0px;
+    width:100%;
+}
+
+.closebutton{
+    cursor:pointer;
+    filter:brightness(0) saturate(100%);
+}
+
+.closebutton:hover{
+    filter:invert(0) sepia(14%) saturate(100%) hue-rotate(0deg) brightness(88%) contrast(95%);
+}

@@ -1,0 +1,44 @@
+.ProfileLabelWrapper {
+  max-width: fit-content;
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline;
+}
+
+.ProfileLabelWrapper span {
+  margin: 0 10px 0 0;
+  font-size: 15px;
+  line-height: 18px;
+  /* color: #ffffff; */
+}
+.ProfileLabelWrapper span:last-child {
+  margin: 0;
+}
+/* .ProfileLabelWrapper span:first-child {
+  color: #ffffffbf;
+} */
+
+.arrowIcon {
+  filter: brightness(0) invert(1);
+}
+
+.active {
+  background: #cce7de;
+  color: #00875a;
+}
+.inactive {
+  color: #193b68;
+  background: #d1d8e1;
+}
+
+.neutral {
+  background: #ffffff;
+  border-radius: 2px;
+  margin-top: 15px;
+  display: block;
+}
+
+.neutral span {
+  color: #193b68 !important;
+  text-transform: capitalize;
+}

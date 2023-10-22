@@ -1,0 +1,37 @@
+.inboxMessage{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
+    padding:13px 10px 12px 12px;
+    background:  #FFFFFF;
+    border-bottom: 1px solid ;
+    box-shadow: inset 0px -1px 0px rgba(194, 209, 217, 0.2);
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.inboxMessage:hover{
+background-color: #F8F8F8;;
+}
+
+.inboxText{
+    font-size: 12px;
+    line-height:12px;
+    display:flex;
+    border-radius: 4px;
+    padding:3px 8px;
+    align-items: center;
+    font-weight: normal;
+    background-color: rgba(234,244,255,0.94);
+}
+
+.dl,.dd{
+    margin-bottom: 0px;
+   
+}
+
+.timeStamp{
+    align-self: flex-end;
+    font-size: 12px;
+}

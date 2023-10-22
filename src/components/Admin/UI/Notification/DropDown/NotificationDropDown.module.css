@@ -1,0 +1,84 @@
+/* Notification Drop Down */
+  
+.ActiveIcon{
+    padding-left: 20px;
+  }
+  
+  .InactiveIcon{
+    padding-left: 20px;
+    visibility: hidden;
+  }
+  
+  
+  .MatchIcon{
+    padding-left: 25px;
+  }
+  
+  .NotificationResult {
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #e8e8e8;
+    margin: auto;
+  }
+  
+  .NotificationResultItem {
+    margin-bottom: 2px;
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background: #f5f5f5;
+  }
+  
+  .NewNotificationResultItem {
+    margin-bottom: 2px;
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    background: #fff;
+  }
+  
+  .NotificationText {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 116%;
+    display: flex;
+    align-items: center;
+    color: #18a0fb;
+  
+  }
+  
+  .NotificationTime {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #828282;
+    padding-left: 45px;
+  }
+
+  
+   .NotificationResultItem .NotificationText {
+    padding-left: 30px;
+    color:#8c8c8c!important;
+  }
+  
+  .NewNotificationResultItem .NotificationText {
+    padding-left: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  

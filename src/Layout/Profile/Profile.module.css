@@ -1,0 +1,19 @@
+.profileimg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    color:#193B68;
+    line-height:20px;
+    font-size:18px;
+}
+
+
+.adminPics{
+    height: 80px;
+    width:80px;
+    margin-bottom: 5px;
+    border-radius:5px ;
+}
+

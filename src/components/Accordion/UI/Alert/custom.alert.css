@@ -1,0 +1,83 @@
+/*
+    # --------------- #
+    # General Styles #
+    # --------------- #
+*/
+
+.Toastify__close-button {
+  color: #505f79;
+  /* background: #505F79; */
+}
+
+.Toastify__progress-bar {
+  height: 6px;
+}
+
+.Toastify__close-button > svg {
+  fill: currentColor;
+  height: 20px;
+  width: 20px;
+}
+
+.Toastify__toast {
+  color: #193b68;
+  border-radius: 6px !important;
+  padding: 15px 27px 20px 27px !important;
+  cursor: default !important;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: none;
+  filter: drop-shadow(0px 3px 5px rgba(9, 30, 66, 0.2));
+}
+
+.Toastify__toast-container {
+  width: 500px !important;
+}
+
+/*
+    # --------------- #
+    # Success Styles #
+    # --------------- #
+*/
+
+.Toastify__toast--success {
+  background: #cce7de;
+}
+
+.Toastify__progress-bar--success {
+  background: #00875a;
+}
+
+/*
+    # --------------- #
+    # Warning Styles #
+    # --------------- #
+*/
+.Toastify__toast--warning {
+  background: #ffebd2;
+}
+.Toastify__progress-bar--warning {
+  background: #ffaa44;
+}
+/*
+    # --------------- #
+    # Error Styles #
+    # --------------- #
+*/
+.Toastify__toast--error {
+  background: #f8d7ce;
+}
+.Toastify__progress-bar--error {
+  background: #de350b;
+}
+
+/*
+    # --------------- #
+    # Default Styles #
+    # --------------- #
+*/
+.Toastify__toast--info {
+  background: #ffffff;
+}
+.Toastify__progress-bar--info {
+  background: #1b69fb;
+}

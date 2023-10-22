@@ -1,0 +1,10 @@
+.tooltipRef{
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 12px rgba(66, 75, 90, 0.15) !important;
+    width:auto;
+    opacity:1 !important;
+    padding:0 !important;
+    margin:0 !important;
+    font-weight:400 !important;
+    /* height:100%; */
+  }

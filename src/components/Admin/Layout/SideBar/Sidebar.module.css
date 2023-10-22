@@ -1,0 +1,319 @@
+.toggleIcon,.toggleIcon:focus,.toggleIcon:active{
+    position: absolute;
+    top: 9px;
+    right: 17px;
+    outline:none !important;
+    border:none;
+}
+
+.toggleIcon span{
+    background: #FAFBFC;
+    border-radius: 3px;
+    padding: 8px 13px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.toggleIcon span:hover{
+    background: #1B69FB;
+    
+}
+.toggleIcon span:hover img{
+    filter: brightness(0) invert(1)
+}
+
+.toggleIcon span img{
+    width: 7px;
+}
+
+.sidemenu{
+    /* background: linear-gradient(180deg, #F0F2F3 20.3%, #C8DDFF 121.67%);
+    box-shadow: 0px 0px 4px #8396AF;
+    height: 100%;
+    position: fixed;
+    width: inherit; */
+   }
+
+.admindetails{  
+    line-height: 20px;
+    font-size: 18px;
+    display: flex;
+    position :relative;
+    flex-direction: column;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+   }
+ 
+   
+.menu{
+    width:100%;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:height 0.3s ease;
+   
+}
+
+.subMenu{
+    height: 50px ;
+    width:100%;
+    list-style-type: none;
+    font-size: 16px;
+    display:flex;
+    align-items:center;
+}
+
+
+
+.menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    line-height:100%;
+    font-size: 17px;
+    font-weight: normal;
+    color:#8396AF;
+    height: 6.11%;
+    margin:0px auto;
+    letter-spacing: 1spx;
+
+}
+
+/* .menuHeader{
+    margin: 20px 0 10px 0;
+    padding: 0 21px;
+} */
+.menuHeader {
+    width: 100%;
+    vertical-align: middle;
+    align-items: center;
+    text-align: start;
+    display: flex;
+    margin: 25px 0 10px 0;
+    padding: 0 14px;
+  }
+  
+  .menuHeader>span {
+    padding: 0 0.4em;
+    color: #8993A4;
+    font-size: 15px;
+  }
+    
+  .menuHeader > .menuHeaderHR {
+    border-bottom: 3px solid #DFE1E6;
+    line-height: 0.1em;
+    margin: 0.34em 0 0.35em;
+    flex: 1 1 auto;
+  }
+  
+  .menuHeader >.menuHeaderHR.menuHeaderFIX {
+    flex: 0 1 auto;
+  }
+
+/* .menuHeader h5 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+.menuHeader h5 span { 
+     background:#fff; 
+     padding:0 10px; 
+ } */
+
+/* 
+
+
+.menuHeader h5{
+    font-size: 14px;
+    line-height: 16px;
+    color: #8993A4;
+}
+.menuHeader h5:before,
+.menuHeader h5:after {
+  background-color:  #DFE1E6;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 54%;
+}
+
+.menuHeader h5:before {
+    width: 4%;
+    left: -8px;
+
+}
+
+.menuHeader h5:after {
+  left: 0.5em;
+} */
+
+/* .menuHeader h5 {
+    display: flex;
+    flex-direction: row;
+  }
+  .menuHeader h5:before, .menuHeader h5:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .menuHeader h5:before {
+    margin-right: 10px
+  }
+  .menuHeader h5:after {
+    margin-left: 10px
+  } */
+
+.menuIcon{
+    /* margin-right:10px; */
+    justify-self: flex-start;
+}
+
+
+.menuIcon:focus{
+    color:white;
+}
+.menuIcon{
+    transition: all .3s ease;
+    padding-right:10px ;
+}
+
+.dropdownHeader{
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content: center;
+    height:50px;
+
+}
+
+.navlink{
+    display:flex;
+    align-items:center;
+    
+}
+.dropdownToggle{
+    position:absolute;
+    right:0px;
+}
+.menu:hover{
+    text-decoration:none; 
+    color:#007bff;
+}
+
+
+.dropdown{
+width:100%;
+
+}
+.subcontainer{
+    padding:0;
+    margin-bottom: 0px;
+}
+.menu:focus,.menu:active{
+    text-decoration:none;
+    color:white;    
+    background: #BBCFEA;
+}
+
+.menu:hover a  span{
+    color: #42526E;
+}
+.menu:hover a  span  img{
+    /* filter: invert(42%) sepia(87%) saturate(390%) hue-rotate(174deg) brightness(93%) contrast(91%); */
+    
+    filter:invert(12%) sepia(53%) saturate(390%) hue-rotate(174deg) brightness(66%) contrast(91%);
+}
+.menu:hover{
+    background: #CEDFFF;
+}
+
+
+a{
+    text-decoration:none;
+    color:currentColor;    
+}
+
+.active{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    padding:-10px;
+    height: 100%;
+    background: #1479FF;
+    color:white ;
+}
+
+.active:hover{
+    color:white;
+    filter:none;
+}
+
+.active  div  .menuIcon,.active   .menuIcon{
+    filter:brightness(0) invert(1);
+
+}
+.menu:hover .active span{
+filter:brightness(0) invert(1);
+}
+
+a:hover{
+    text-decoration:none;
+    color:currentColor;    
+}
+
+
+div:has(:first-child.active){
+    color: red;
+
+}
+
+.subMenu:hover{
+    background: #D0E4FF ;
+}
+.itemContainer{
+    display:flex;
+    position:relative;
+    align-items:center;
+    flex:0 0 90%;
+}
+
+.logcontainer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+
+}
+
+.logItem{
+    width: 110px;
+    cursor:pointer;
+    justify-content:space-between;
+    display:flex;
+    line-height:22px;
+    color: #8396AF;
+}
+
+.logItem:hover .menuIcon{
+    filter:brightness(0) invert(1);
+
+}
+
+.logItem:hover .logtext{
+    color:white;
+}

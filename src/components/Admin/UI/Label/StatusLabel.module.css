@@ -1,0 +1,35 @@
+.active{
+    color:#27B260;
+    background: #EAFBF1;
+
+}
+
+.inActive{
+    color:#E59502;
+    background:#FFF6E6;
+}
+
+.suspended{
+    color:#627FA4;
+    background: #D0E4FF;
+    
+}
+
+
+.active,.inActive,.suspended{
+    padding:2px 4px;
+    font-size:16px;
+    line-height: 14px;
+    font-weight:400;
+    border-radius:4px;
+}
+
+.default{
+    color: #627FA4;
+    background: #D0E4FF;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 3px 8px;
+    display: inline-block;
+    margin: 0 8px 0 0;
+}

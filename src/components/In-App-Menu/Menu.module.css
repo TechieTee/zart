@@ -1,0 +1,36 @@
+
+.toggleIcon{
+    /* object-fit: contain; */
+  
+    /* width: 40px; */
+    transition: all .3s ease;
+    
+}
+
+.menucontainer{
+        height:calc(100% - 85.9px);
+        max-height:100%;
+        background-color: #ffffff;
+        position:fixed;
+        right: 0;
+        overscroll-behavior-y: scroll;
+        background-color: #ffffff;
+        position:fixed;
+        right: 0;
+        /* width: auto; */
+        bottom: 0;
+        /* overflow-y: auto; */
+        box-shadow: -3px 0px 9px 1px rgb(0 0 0 / 15%);
+        z-index: 10000;
+        transition: all .3s ease;
+}
+
+.arrowdir{
+    cursor:pointer;
+    position: absolute;
+    bottom: 30px;
+    width:70px;
+    /* background: green; */
+    height: 40px;
+    left:0px; 
+}

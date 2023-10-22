@@ -1,0 +1,374 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  display: table;
+  padding: auto;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+}
+
+.paginationContainer {
+  width: max-content;
+  line-height: 18px;
+  /* display:flex;
+justify-content:space-between; */
+  font-size: 17px;
+  margin: 30px 0;
+  color: #6780a2;
+}
+
+tr {
+  height: 55px;
+  background: #f8f8f8;
+}
+
+tr:hover {
+  background: #f4f5f7;
+}
+
+.paginateButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  background: transparent;
+  border: none;
+}
+
+caption {
+  margin: 15px 0;
+  caption-side: top;
+}
+
+td,
+th {
+  border-top: 2px solid #f0f2f3;
+  border-bottom: 2px solid #f0f2f3;
+  padding: 8px;
+  min-height: 38px;
+  color: #6780a2;
+}
+td {
+  word-break: break-word;
+  font-size: 16px;
+  font-weight: normal;
+  /* line-height: 18px; */
+}
+th:last-child,
+th:last-child {
+  position: relative;
+}
+
+.textContainer {
+  display: inline-flex;
+  transform: translateY(8px);
+}
+span.dropdown {
+  position: absolute !important;
+  right: 1px;
+}
+
+.iconBox {
+  width: 30px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  display: inline-flex;
+  font-size: 16px;
+}
+.searchContainer.active {
+  /* background: #F4F5F7;
+    border-radius: 5px;
+    color: #193B68;
+    border: 1.5px solid #DFE1E6; */
+}
+.searchContainer.visible {
+  /* border: 1.5px solid #DFE1E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: rgba(135, 135, 135, 0.5); */
+}
+
+.searchContainer.visible .iconBox {
+  margin-left: 15px;
+}
+
+.searchContainer.active:focus-within,
+.searchContainer.visible:focus-within {
+  /* border: 1.5px solid #1B69FB; */
+}
+
+.searchBox {
+  font-size: 16px;
+  background-color: inherit;
+  border: 0;
+  width: 100%;
+  height: 24px;
+  /* flex; */
+}
+
+.searchBox:focus {
+  border: 0;
+  outline: 0;
+}
+thead {
+  position: relative;
+}
+
+th {
+  background-color: #eeeeee;
+  border-top: 2px solid #f0f2f3;
+  border-bottom: 2px solid #f0f2f3;
+  /* padding-top: 12px; */
+  padding-bottom: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* margin:8px ; */
+}
+
+.dragIcon {
+  display: none;
+}
+.thead {
+  position: relative;
+}
+
+.thead:hover .dragIcon,
+.thead:active .dragIcon {
+  position: absolute;
+  left: 0px;
+  display: contents;
+  margin-left: 1px;
+}
+
+.dragToggleBgColor {
+  filter: invert(30%) !important;
+}
+.sortIconContainer {
+  display: inline-block;
+  align-self: center;
+  /* margin:0 8px; */
+}
+.sortIcon {
+  width: 10px;
+}
+.featureContainer {
+  align-items: center;
+  float: right;
+  display: flex;
+}
+
+caption {
+  color: #8396af;
+  padding-bottom: 0;
+}
+/* button{
+    
+    display:inline-block;
+    background: transparent;
+    border:none;
+
+}
+button:focus{
+    outline:none;
+}
+
+button:disabled{
+    opacity:0.2;
+    cursor: not-allowed;
+} */
+
+.arrowSvg {
+  display: block !important;
+  font-size: 14px;
+  margin-left: 10px !important;
+}
+
+.dropDownTip {
+  line-height: 16px;
+  font-size: 12px;
+  color: #8396af;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+
+.filterOption {
+  padding: 8px 16px;
+}
+
+.dropdownItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+input[type="checkbox"]:checked:before.customCheckbox {
+  background-color: #193b68;
+  content: "\2714";
+  display: inline-block;
+  width: 16.75px;
+  height: 18.75px;
+  text-align: center;
+  color: white;
+  border: 1px solid #193b68;
+  border-radius: 3px;
+}
+.dragIcon {
+  width: 8px;
+}
+input[type="checkbox"]:checked ~ *.customCheckbox {
+  font-weight: 500;
+  font-size: 16px;
+  color: #193b68;
+}
+
+button {
+  cursor: pointer;
+}
+
+.nodata {
+  text-align: center;
+}
+
+td:last-child {
+  position: relative;
+}
+
+div.deleteOverlay {
+  position: absolute;
+  /* background: rgba(255,0,0,0.7); */
+  left: 0;
+  right: 0;
+  height: 1.2em;
+  top: 10px;
+  text-align: center;
+  width: 100%;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+tr:hover .deleteOverlay {
+  display: flex;
+}
+.rowIconArray {
+  display: inline;
+  float: right;
+}
+
+.tableRow:hover td .iconTray {
+  display: inline-flex;
+}
+
+.iconTray {
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  /* float:right; */
+}
+.dangerRowIcon {
+  cursor: pointer;
+  background: #f8d7ce;
+  color: #de350b;
+  padding: 4px 4px;
+  border-radius: 4px;
+  margin: 0 2px;
+}
+.dangerRowIcon:hover {
+  background: #de350b;
+  color: #fff;
+}
+
+.dangerRowIcon:active {
+  background: #b92c09;
+  color: #fff;
+}
+
+.defaultRowIcon {
+  cursor: pointer;
+  background: #dfe1e6;
+  color: #505f79;
+  padding: 4px 4px;
+  border-radius: 4px;
+  margin: 0 2px;
+}
+
+.defaultRowIcon:hover {
+  background: #505f79;
+  color: #fff;
+}
+
+.defaultRowIcon:active {
+  color: #1b69fb;
+  background: #cedfff;
+}
+
+li:after {
+  content: "" !important;
+}
+.filterIcon {
+  border: none;
+  background: transparent;
+}
+
+.filterDropdownWrapper {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 10000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.filterBox {
+  display: inline-block;
+  background: #193b68;
+  border-radius: 3px;
+  padding: 4px 10px;
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+
+.filterDropdownLabel {
+  width: 100%;
+  margin: 0;
+  padding: 5px 0px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  z-index: 1000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.filterHeader {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.filterDropdownContainer {
+  width: max-content;
+  padding: 12px;
+  line-height: 18px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.filterMenuDropdownWrapper {
+  position: absolute;
+  z-index: 10000;
+  width: max-content;
+  left: 0px;
+  top: 40px;
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 12px rgba(25, 59, 104, 0.25);
+  border-radius: 2px;
+  color: #63768e;
+}

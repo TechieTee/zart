@@ -1,0 +1,67 @@
+.iconcontainer{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#18A0FB;
+    /* border-bottom: 1px solid white; */
+    /* padding:20px 23px; */
+    height:70px; 
+    background-color: transparent;
+    
+    }
+    
+    .iconContent{
+        display:inline-block;
+        padding:9px;
+    }
+    .iconcontainer  .iconContent:hover{
+    background: #F4F6FC;
+    }
+    
+    .iconcontainer:hover .icon{
+        filter: invert(50%) sepia(33%) saturate(7305%) hue-rotate(183deg) brightness(105%) contrast(97%);}
+    
+    .active .iconContent:hover{
+        background:none;
+    }
+    
+    .active{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:80%;
+        border-radius: 3px;
+        /* padding:-10px; */
+        height: 70%;
+        background: #18A0FB;
+        color:white ;
+    }
+    
+    
+    
+    .active .icon,.iconcontainer:hover .active .icon{
+        filter:brightness(0) invert(1);
+    }
+    .iconcontainer .tooltip{
+        visibility:hidden;
+        background-color: #F4F6FC;
+        text-align: right;
+        width: max-content;
+        color:#003D65;
+        padding:3px 15px;
+        border-radius: 5px;
+        font-size:16px;
+        position: absolute;
+        line-height:11px;
+        font-weight: 700px;
+        top:70%;
+        right:30%;
+        z-index: 10000;
+    
+    }
+    
+    
+    .iconcontainer:hover .tooltip{
+        visibility :visible;
+    }

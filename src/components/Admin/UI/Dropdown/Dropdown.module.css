@@ -1,0 +1,15 @@
+.dropdownContainer{
+position:relative; 
+z-index: 100; 
+cursor:pointer 
+}
+
+
+
+
+
+.dropDownItem{
+    height: max-content;
+    border-radius: 2px;
+    
+    }

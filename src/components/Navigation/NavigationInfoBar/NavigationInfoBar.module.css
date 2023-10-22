@@ -1,0 +1,30 @@
+.barWrapper{
+    margin-top:-5px;
+    padding:  20px 70px 20px 20px;
+    display:flex;
+    position:sticky;
+    top:84px;
+    z-index: 10;
+}
+
+.navContainer{
+    flex:1 1 10%;
+    display:flex;
+    padding: 0px 0; 
+    justify-content:center;
+    align-items:flex-start;
+}
+.contentContainer{
+    flex:1 1 90%;
+
+}
+
+.tooltipRef{
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 12px rgba(66, 75, 90, 0.15) !important;
+    width:auto;
+    padding:0 !important;
+    margin:0 !important;
+    font-weight:400 !important;
+    /* height:100%; */
+  }

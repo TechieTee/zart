@@ -1,0 +1,40 @@
+ 
+ .editorContainer{
+   background: #F8F9F9; 
+ }
+  .EditorUtil,
+  .EditorUtil:focus {
+    border: none;
+    outline: none;
+    margin: 5px;
+    background: transparent;
+  }
+  
+  .EditorUtil:active {
+    background-color: green;
+  }
+  
+  .utilTray {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #f9f9f9;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+  .descriptionArea {
+    border: 1px solid #e0e0e0;
+    padding:8px 15px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #F8F9F9;
+    min-height: 10em;
+    cursor: text;
+  }
+  
+  .descriptionArea:focus-within {
+    background-color:   #FAFBFC ;
+    border: 1px solid #18a0fb;
+    outline: none;
+  }
+ 
+  
